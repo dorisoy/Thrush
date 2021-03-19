@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Thrush.Core.Resources.LightColors">
+
+    <Color x:Key="PrimaryBackgroundColor">#FFFFFFFF</Color>
+    <Color x:Key="SecondaryBackgroundColor">#FFE3E5F6</Color>
+
+    <Color x:Key="PrimaryColor">#FFE3E5F6</Color>
+    <Color x:Key="SecondaryColor">#FFDA3434</Color>
+    <Color x:Key="TertiaryColor">#FF252525</Color>
+
+    <Color x:Key="PrimaryTextColor">#FF252525</Color>
+    <Color x:Key="SecondaryTextColor">#FF30313C</Color>
+    <Color x:Key="TertiaryTextColor">#FF393A47</Color>
+
+</ResourceDictionary>
+ 

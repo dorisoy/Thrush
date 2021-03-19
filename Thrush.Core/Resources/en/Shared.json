@@ -1,0 +1,19 @@
+﻿{
+  "AddToQueue": "添加队列",
+  "AddToPlaylist": "添加到清单",
+  "RenamePlaylist": "重命名清单",
+  "DeletePlaylist": "删除清单",
+  "Share": "共享",
+  "EnterNewName": "输入此播放清单的新名称",
+  "ShowArtist": "显示艺术家",
+  "ShowAlbum": "显示相册",
+  "SureToDelete": "确实要删除此播放清单吗?",
+  "Cancel": "取消",
+  "ItemAddedToQueue": "已经添加到队列",
+  "RenameSuccessful": "重命名成功",
+  "PlaylistDeleted": "清单已经删除",
+  "RemoveFromQueue": "重命名队列",
+  "ItemRemovedFromQueue": "项目已经移除队列",
+  "RemoveFromPlaylist": "移动到队列",
+  "ItemRemovedFromPlaylist": "项目已经移动"
+}

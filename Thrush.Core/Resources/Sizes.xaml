@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Thrush.Core.Resources.Sizes">
+
+    <x:Int32 x:Key="TextSizeXmicro">10</x:Int32>
+    <x:Int32 x:Key="TextSizeMicro">12</x:Int32>
+    <x:Int32 x:Key="TextSizeXsmall">13</x:Int32>
+    <x:Int32 x:Key="TextSizeSmall">14</x:Int32>
+    <x:Int32 x:Key="TextSizeMedium">16</x:Int32>
+    <x:Int32 x:Key="TextSizeLarge">18</x:Int32>
+    <x:Int32 x:Key="TextSizeElarge">20</x:Int32>
+    <x:Int32 x:Key="TextSizeXlarge">24</x:Int32>
+    <x:Int32 x:Key="TextSizeXxlarge">28</x:Int32>
+    <x:Int32 x:Key="TextSizeXxxlarge">34</x:Int32>
+
+    <x:Int32 x:Key="MarginPaddingExtrasmall">0</x:Int32>
+    <x:Int32 x:Key="MarginPaddingSmall">4</x:Int32>
+    <x:Int32 x:Key="MarginPaddingMedium">8</x:Int32>
+    <x:Int32 x:Key="MarginPaddingLarge">16</x:Int32>
+    <x:Int32 x:Key="MarginPaddingXlarge">24</x:Int32>
+    <x:Int32 x:Key="MarginPaddingXxlarge">32</x:Int32>
+    <x:Int32 x:Key="MarginPaddingXxxlarge">48</x:Int32>
+    <x:Int32 x:Key="MarginPaddingXxxxlarge">64</x:Int32>
+    <x:Int32 x:Key="MarginPaddingXxxxxlarge">72</x:Int32>
+    
+    <Thickness x:Key="MarginPaddingTopBottomMedium">0,8</Thickness>
+    <Thickness x:Key="MarginPaddingTopBottomLarge">0,16</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightSmall">4,0</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightMedium">8,0</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightLarge">16,0</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightXlarge">24,0</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightMediumTopBottomSmall">8,4</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightLargeTopBottomMedium">16,8</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightXlargeTopBottomSmall">24,4</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightXlargeTopBottomMedium">24,8</Thickness>
+    <Thickness x:Key="MarginPaddingLeftRightXlargeTopBottomLarge">24,16</Thickness>
+
+</ResourceDictionary>
+ 

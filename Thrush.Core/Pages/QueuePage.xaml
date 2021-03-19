@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<core:MvxContentPage
+    xmlns:core="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms" 
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="clr-namespace:Thrush.Core.ViewModels;assembly=Thrush.Core"
+    mc:Ignorable="d"
+    x:TypeArguments="viewModels:QueueViewModel"
+    x:Class="Thrush.Core.Views.QueuePage"
+    x:Name="thisPage">
+    
+    <NavigationPage.TitleView>
+        <StackLayout
+            Orientation="Horizontal"
+            VerticalOptions="Center" HorizontalOptions="Center"
+            Spacing="10"
+            HeightRequest="30">
+            <Image
+                Source="chameleon_logo.png"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="icon_close.png"
+            mvx:Bi.nd="Command CloseCommand"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout
+        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <Label
+            mvx:Bi.nd="Text QueueTitle"
+            Style="{StaticResource PrimaryHeader}"
+            Margin="24,20,0,0"/>
+        <CollectionView
+            x:Name="MyCollectionView"
+            ItemTemplate="{StaticResource ContentItemTemplateSelector}"
+            mvx:Bi.nd="ItemsSource MediaItems;
+                       SelectionChangedCommand PlayCommand;
+                       SelectionChangedCommandParameter SelectedMediaItem;
+                       SelectedItem SelectedMediaItem"
+            SelectionMode="Single"
+            VerticalOptions="FillAndExpand">
+
+            <CollectionView.EmptyView>
+                <StackLayout>
+                    <ActivityIndicator
+                        Color="DimGray"
+                        mvx:Bi.nd="IsRunning IsLoading"/>
+                    <Label
+                        BindingContext="{Binding .}"
+                        Text="{mvx:MvxLang FillingQueue}" 
+                        VerticalOptions="Center"
+                        Margin="24,0,0,0"
+                        Style="{StaticResource Title}" />
+                </StackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </StackLayout>
+
+</core:MvxContentPage>

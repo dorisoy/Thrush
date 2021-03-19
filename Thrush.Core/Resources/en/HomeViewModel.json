@@ -1,0 +1,15 @@
+﻿{
+  "Title": "首页",
+  "Player": "转到播放",
+  "PlayVideoPicker": "从视频库播放视频",
+  "PlayFilePicker": "从文件选择器播放媒体",
+  "OpenUrl": "从URL播放",
+  "Queue": "(打开队列的临时按钮)",
+  "Recent": "最近 播放",
+  "AddPlaylist": "新加",
+  "Playlists": "播放清单",
+  "AllPlaylists": "全部清单",
+  "EnterNewName": "输入新播放清单的名称",
+  "EnterUrl": "输入URL",
+  "EnablePermissions": "确保启用读取存储和选择文件的权限"
+}

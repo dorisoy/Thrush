@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<DataTemplate
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:pan="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:Class="Thrush.Core.Templates.HorizontalProviderItemTemplate">
+    <Grid Padding="24,8,0,8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="107" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="156" />
+        </Grid.ColumnDefinitions>
+        <pan:PancakeView
+            CornerRadius="8"
+            IsClippedToBounds="True"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+           >
+            <pan:PancakeView.Shadow>
+                <pan:DropShadow Color="LightGray"
+                                Opacity="0.6">
+                </pan:DropShadow>
+            </pan:PancakeView.Shadow>
+            <Image
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Aspect="AspectFill"
+                Source="cover_art_placeholder.png" />
+        </pan:PancakeView>
+        <Label
+            mvx:Bi.nd="Text Title"
+            VerticalOptions="EndAndExpand"
+            MaxLines="1"
+            Margin="{StaticResource MarginPaddingMedium}"
+            Style="{StaticResource TitleItem}" />
+    </Grid>
+</DataTemplate>

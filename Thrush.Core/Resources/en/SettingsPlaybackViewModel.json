@@ -1,0 +1,15 @@
+﻿{
+  "Title": "播放设置",
+  "PlaybackSettings": "播放设置",
+  "Skip": "以秒为单位向前/向后跳跃",
+  "Volume": "最大声音",
+  "Balance": "平衡",
+  "Clear": "清除播放队列",
+  "ScreenOn": "保持屏幕打开",
+  "Right": "右",
+  "Center": "中",
+  "Left": "左",
+  "R": "R",
+  "L": "L"
+
+}
